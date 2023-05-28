@@ -1,9 +1,9 @@
 import React from 'react';
-import Form from './Components/Form';
+import { Pokemon } from './Pokemon';
 const App = () => {
      return (
-          <div>
-               <Form/>
+          <div className='App'>
+               <Pokemon />
           </div>
      );
 };
