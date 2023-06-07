@@ -1,11 +1,11 @@
-import React from 'react';
-import { Pokemon } from './Pokemon';
+import React from "react";
+import { Todo } from "./Todo";
 const App = () => {
-     return (
-          <div className='App'>
-               <Pokemon />
-          </div>
-     );
+  return (
+    <div className="App">
+      <Todo />
+    </div>
+  );
 };
 
 export default App;
